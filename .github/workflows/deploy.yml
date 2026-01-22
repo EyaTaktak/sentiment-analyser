@@ -23,6 +23,7 @@ jobs:
       
       - name: Run Tests
         env:
+          PYTHONPATH: .
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: |
           pip install pytest httpx
