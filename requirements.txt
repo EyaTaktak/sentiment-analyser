@@ -1,0 +1,11 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+langchain-nvidia-ai-endpoints==0.1.2
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+gunicorn==21.2.0
+redis
+langchain-community
+gradio
+huggingface_hub<0.25.0
+plotly
