@@ -1,4 +1,4 @@
-from models import CustomerFeedback
+from app.models import CustomerFeedback
 
 
 def test_customer_feedback_schema():
