@@ -26,7 +26,6 @@ jobs:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
         run: |
           pip install pytest httpx
-          pytest tests/
-      
+          pytest tests/      
       - name: Build Docker Image
         run: docker build -t my-chatbot:latest .
